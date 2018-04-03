@@ -7,7 +7,7 @@ This code test was created from https://github.com/zeit/next.js/tree/canary/exam
 When using `Link` component, you can see that some of the data (`testObject` and `testArray`) are showing up as undefined when navigating to/from the two sample posts (also using the back/forward browser buttons - see console output). On refresh, they show correct values.
 
 1. Open browser at `localhost:3000`
-2. Click `<Link>` nav, see output. Does not show `testObject` and `testArray unless page is reloaded.
+2. Click `<Link>` nav, see output. Does not show `testObject` and `testArray` unless page is reloaded.
 
 When using the non `Link` nav, there is no such issue, `testObject` and `testArray` are passed correctly.
 
